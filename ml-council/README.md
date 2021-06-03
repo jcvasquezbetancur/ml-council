@@ -1,9 +1,31 @@
-ml-council
+# ml-council : a data science project
 ==============================
 
-Analysis of  purchase cards transactions with ML-methods
+Analysis of  purchase cards transactions from the Birmingham City Council with ML-methods.
 
-Project Organization
+## Dataset
+Not obliged by law but under the behalf of a Code of Recommendations for Data Transparency, the city is publishing the monthly expenses above $500
+[Official website of dataset B. City council](https://data.birmingham.gov.uk/dataset/purchase-card-transactions)
+
+## Business Problem Analysis
+
+1. The council might be interested in gaining insights on the expenditures profiles to therefore mitigate bad usage. 
+2. Forecasting future behaivoiour, the council  can plan better its budget and its providers improve their market understanding.
+
+Using a collection of purchase card transactions for the Birmingham City Council. this project aims  the following tasks:
+* (Clustering) Discovering profiles (whether the case) 
+* (Forecasting) Try to guess future transactional behaviors
+
+
+## Project basic structure
+
+* On first stage: We will provide a first set of notebooks gathering the basic ML-workflow: Preprocessing Data, Exploratory data-analysis (EDA), model & validation and 1.council_preprocessing.ipynb 
+2.council_EDA.ipynb 
+3-council_model-clustering.ipynb 
+4-council_model-forecasting.ipynb 
+* On second stage  We will provide a ready-to-use Proof-of-concept  using a Gradio or parametizable notebook (Papermill)
+
+# Repository Organization
 ------------
 
     ├── LICENSE
