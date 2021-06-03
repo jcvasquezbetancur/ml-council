@@ -5,7 +5,8 @@ Analysis of  purchase cards transactions from the Birmingham City Council with M
 
 ## Dataset
 Not obliged by law but under the behalf of a Code of Recommendations for Data Transparency, the city is publishing the monthly expenses above $500
-[Official website of dataset B. City council](https://data.birmingham.gov.uk/dataset/purchase-card-transactions)
+
+[link to official website of dataset by B. City council](https://data.birmingham.gov.uk/dataset/purchase-card-transactions)
 
 ## Business Problem Analysis
 
@@ -13,17 +14,28 @@ Not obliged by law but under the behalf of a Code of Recommendations for Data Tr
 2. Forecasting future behaivoiour, the council  can plan better its budget and its providers improve their market understanding.
 
 Using a collection of purchase card transactions for the Birmingham City Council. this project aims  the following tasks:
-* (Clustering) Discovering profiles (whether the case) 
-* (Forecasting) Try to guess future transactional behaviors
+* (Clustering) Discovering profiles (whether the case). 
+* (Forecasting) Try to guess future transactional behaviors.
 
 
 ## Project basic structure
 
-* On first stage: We will provide a first set of notebooks gathering the basic ML-workflow: Preprocessing Data, Exploratory data-analysis (EDA), model & validation and 1.council_preprocessing.ipynb 
-2.council_EDA.ipynb 
-3-council_model-clustering.ipynb 
-4-council_model-forecasting.ipynb 
-* On second stage  We will provide a ready-to-use Proof-of-concept  using a Gradio or parametizable notebook (Papermill)
+* On first stage: We will provide a first set of notebooks gathering the basic ML-workflow: Preprocessing Data, Exploratory data-analysis (EDA), model & validation.
+
+    1.council_preprocessing.ipynb: Download & Bundle Data(optional), inspect and clean data. 
+
+    2.council_EDA.ipynb : Explore data and perform first feature selection.
+
+    3-council_model-clustering.ipynb  : Train and validate models for clustering.
+
+    4-council_model-forecasting.ipynb  : Train and validate models for forecasting.
+
+* On second stage  We will refactor code and provide a ready-to-use Proof-of-concept  using a Gradio or parametizable notebook (Papermill)
+
+## Methodologies Summary
+
+* *Clustering*:
+* *Forecasting*:
 
 # Repository Organization
 ------------
